@@ -21,7 +21,7 @@ docker run -d --name=netdata \
   --pid=host \
   --network=host \
   -v netdataconfig:/etc/netdata \
- -v netdatalib:/var/lib/netdata \
+  -v netdatalib:/var/lib/netdata \
   -v netdatacache:/var/cache/netdata \
   -v /etc/passwd:/host/etc/passwd:ro \
   -v /etc/group:/host/etc/group:ro \
